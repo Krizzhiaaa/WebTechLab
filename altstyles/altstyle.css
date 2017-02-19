@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;   
+    line-height: 2;
+}
+header{
+    background: url(../img/3.jpg)fixed 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    margin-top: 56%; 
+}
+nav ul{
+    background-color: #d5d5d5;
+    text-align: center;
+    
+}
+
+nav ul li{
+    display:inline-block;
+    padding: 3%;
+}
+
+#logo{
+    display:none;
+}
+/*===End of navigation bar====*/
+#header-container{
+    color: white;
+    margin: 20%  0 0 20%;
+    position: absolute;
+    text-align: center;
+    border: 2px solid white;
+}
+/*===End of header-text====*/
+#visit{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#visit h2{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+#visit h3{
+    text-align: center;
+}
+.one-third{
+    color: white;
+    margin:auto;
+    width: 70%;
+    height: auto;
+    padding: 2%;
+}
+#cool{
+    background-color: #35af8a;
+}
+#festival{
+    background-color: #00846e;
+}
+#attractions{
+    background-color: #4d6e81;
+}
+/*=====End of header====*/
+#popular{
+    height: auto;
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 7%;
+    border-width: 0 0 3px ;   
+    border-style: solid;
+    border-color: #FFCF79;
+}
+.img-third{   
+    box-sizing: border-box;
+    margin: .5%;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;    
+    height: 20em;
+    float: left;
+    width: 30%;
+    
+}
+.img-third:hover{
+    transition: .5s;
+    opacity: 0.8;
+}
+#one-whole:hover{
+    transition: .5s;
+    opacity: 0.9;   
+}
+#bencab{
+    background-image: url(../img/bencab4.jpg);
+}
+#ecotrail{
+    background-image: url(../img/eco6.JPG);    
+}
+#burnham{
+    background-image: url(../img/bh2.JPG);    
+}
+#bellchurch{
+    background-image: url(../img/bc2.JPG);    
+}    
+#minesview{
+    background-image: url(../img/m3.jpg);    
+}
+#mansion{
+    background-image: url(../img/tm4.JPG);    
+}
+#gallery{
+    text-align: center;
+    background-color: #ffff99;
+    width: 100%;
+    height: 700px;
+}
+#to-gallery{
+    display: none;
+}
+/*====end of popular destinations===*/
+#quote{
+
+    position: relative;
+    box-sizing: border-box;
+    background: url(../img/c.jpg) fixed;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height:30em;
+    background-size:cover;
+    background-repeat: no-repeat; 
+    padding-bottom: 5em;
+}
+#quote-text{
+    font-family: 'Oswald', sans-serif;
+    width: 50%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+#quote-text h2{
+    font-size: 3em;
+}
+/*===end of quote section===*/
+.outer-wrapper h2{
+    margin: auto;
+    width: 40%;
+    border-bottom: .1em solid #99cc99;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.outer-wrapper{
+    font-size: 2em;
+    margin-top: 5%;
+    top:20%;
+    width: 100%;
+    height: auto;
+}
+.tradition-wrapper{
+    position: relative;
+}
+.tradition-wrapper img{
+    width: 100%;
+}
+.text-right{
+    opacity: .8;
+    padding: 3%;
+    margin-left: 30%;
+    font-size: .6em;
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    margin-top: -50%;
+}
+.text-left{
+    opacity: .8;
+    padding: 3%;
+    margin-left: 30%;
+    font-size: .6em;
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    margin-top: 20%;
+}
+/*====end of tradition section */
+#about-us{
+    background-color: #d5d5d5;
+    margin-top: -9.5%;
+}
+
+#about-header{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 4em;
+}
+#about-content ul li{
+    font-family: 'futura';
+    font-size: .9em;
+    font-weight: 100;
+    list-style: none;
+    color: #4BB8D2;
+}
+#about-content ul li:hover{
+    transition: .5s;
+    text-decoration: underline;
+}
+#about-content h6{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#about-content p{
+    font-size: 1em;
+}
+#about-content{
+    color: #8E8E8E;
+    background-color: #141414;
+    font-family: 'Abel';
+    padding: 1%;
+    font-size: 150%;
+}
+.social-container{
+  width: 50%;      
+}
+#left-social{
+    margin-left: 4%;
+}
+#social-outer-wrapper{
+    display: flex;
+}
+
+
+/*===End of about us====*/
+
+footer h2{
+    display: none;
+}
+footer {
+    padding-top: 0;
+    text-align: center;
+    color: #8e8e8e;
+    background-color: #141414;
+    height: 100px;
+    overflow: hidden;
+}

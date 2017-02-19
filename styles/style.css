@@ -318,10 +318,11 @@ header{
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding-botom: 5%;
+    padding-bottom: 5%;
     overflow: auto;    
 }
 footer{
+    text-align: center;
     color: white;
     padding-top: 2%;
     background: url(../img/bg2.jpg) repeat fixed;
